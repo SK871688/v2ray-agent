@@ -361,6 +361,14 @@
         "outbound": "🎯 本地直连"
       },
       {
+        "rule_set": "墙外白名单",
+        "outbound": "🗒 白名单"
+      },
+      {
+        "rule_set": "墙外黑名单",
+        "outbound": "📓 黑名单"
+      },
+      {
         "type": "logical",
         "mode": "or",
         "rules": [
@@ -417,14 +425,6 @@
       {
         "rule_set": "geosite-microsoft",
         "outbound": "Microsoft"
-      },
-      {
-        "rule_set": "墙外白名单",
-        "outbound": "🗒 白名单"
-      },
-      {
-        "rule_set": "墙外黑名单",
-        "outbound": "📓 黑名单"
       },
       {
         "rule_set": "geosite-geolocation-!cn",

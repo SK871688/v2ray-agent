@@ -111,12 +111,6 @@
   ],
   "outbounds": [
     {
-      "domain_resolver": {
-        "server": "dns_direct",
-        "strategy": "prefer_ipv4"
-      }
-    },
-    {
       "type": "urltest",
       "tag": "自动选择",
       "outbounds": [
